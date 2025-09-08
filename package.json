@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-api-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot that interacts with external APIs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "puppeteer": "^24.19.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "whatsapp",
+    "api",
+    "bot",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT"
+}
